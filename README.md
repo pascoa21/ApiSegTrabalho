@@ -1,7 +1,6 @@
 
 ![Sesmet API](https://user-images.githubusercontent.com/50502920/101957674-a6146680-3be0-11eb-8007-6316a146d12e.png)
 
-<h1 align="center">Sesmt Api</h1>
 <h4 align="center"> 
 	🚧  Sesmt API 🚀 Em construção...  🚧
 </h4>
