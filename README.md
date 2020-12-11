@@ -1,7 +1,7 @@
 # ProjetoFinal-ApiSegTrabalho
 <h1 align="center">Sesmt Api</h1>
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  Sesmt API 🚀 Em construção...  🚧
 </h4>
 <p align="center">Um API com informação de segurança do trabalho para micro e pequenas empresas, no qual não é necessário a presença de um profissional da área.</p>
 
