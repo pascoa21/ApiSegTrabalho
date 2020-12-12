@@ -12,7 +12,7 @@ const Customer = require('./models/customer');
 //Carrega as rotas
 const indexRoute = require('./routes/indexRoute');
 const productRoute = require('./routes/productsRoute');
-
+const customerRoute = require('./routes/customerRoute');
 
 // Conectar ao banco
 mongoose.connect(process.env.DATABASE_CONNECTION_STRING, {
@@ -45,6 +45,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use('/', indexRoute);
-app.use('/riscos', productRoute)
+app.use('/riscos', productRoute);
+app.use('/customer', customerRoute);
 
 module.exports = app;

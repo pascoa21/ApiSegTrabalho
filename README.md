@@ -35,3 +35,4 @@
 <h2> Links </h2>
 
 * [Heroku (deploy)](https://appsst.herokuapp.com/)
+* [Collection Postman](https://www.getpostman.com/collections/81c747dcbeac5a2ef0fe)

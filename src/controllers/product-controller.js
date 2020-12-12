@@ -44,8 +44,8 @@ exports.post = ('/', (req, res, next) => {
     
 });
 
-exports.put = ('/:id', (req, res, next) =>{
-    product.findByIdAndUpdate(req.params.id, {
+exports.put = ('/:agente', (req, res, next) =>{
+    Product.findByIdAndUpdate(req.params.id, {
         $set:{
             Risc: req.body.Risc,
             agente: req.body.Agente,
@@ -63,8 +63,8 @@ exports.put = ('/:id', (req, res, next) =>{
     })
 });
 
-exports.delete = ('/', (req, res, next) => {
-    product.findOneAndRemove(req.params.id).then(x => {
+exports.delete = ('/risc', (req, res, next) => {
+    Product.findOneAndRemove(req.params.id).then(x => {
         res.status(200).send({
             message:'Risco removido com sucesso!'
         });
